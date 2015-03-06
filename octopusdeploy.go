@@ -55,3 +55,26 @@ func apiIndex(url string, apiKey string) (map[string]interface{}, error) {
 
 	return data, err
 }
+
+func Dashboard(url string, apiKey string) (map[string]interface{}, error) {
+	var data map[string]interface{}
+	
+	index, err := apiIndex(url, apiKey)
+	
+	if err != nil {
+		return data, err
+	}
+	
+	links := index["Links"]
+	
+	if !links.(map[string]interface{}) {
+		return data, fmt.Errorf("Links attribute not found in: %s", index)
+	}
+	
+	linkMap := links.(map[string]interface{})
+	dashboardUrl := linkMap["Dashboard"]
+	
+	err := get(url + dashboardUrl.(string), apiKey, interface{}(&data))
+	
+	return data, err
+}
