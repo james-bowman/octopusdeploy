@@ -11,7 +11,7 @@ const (
 	apiKeyHeader = "X-Octopus-ApiKey"
 )
 
-func get(url string, apiKey string, resource *interface{}) error {
+func get(url string, apiKey string, resource interface{}) error {
 	client := &http.Client{}
 	req, _ := http.NewRequest("GET", url, nil)
 	
@@ -48,7 +48,7 @@ func get(url string, apiKey string, resource *interface{}) error {
 func apiIndex(url string, apiKey string) (map[string]interface{}, error) {
 	var data map[string]interface{}
 
-	data, err := get(url + "/api", apiKey, data)
+	err := get(url + "/api", apiKey, interface{}(&data))
 	//req, _ := http.NewRequest("GET", url + "api/projectgroups", nil)
 	//req, _ := http.NewRequest("GET", url + "api/projectgroups/projectgroups-1/projects", nil)
 	//req, _ := http.NewRequest("GET", url + "api/projects/projects-65/releases", nil)
