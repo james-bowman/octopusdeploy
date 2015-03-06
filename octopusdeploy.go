@@ -11,9 +11,7 @@ const (
 	apiKeyHeader = "X-Octopus-ApiKey"
 )
 
-func get(url string, apiKey string) (map[string]interface{}, error) {
-	var data map[string]interface{}
-
+func get(url string, apiKey string, resource *interface{}) error {
 	client := &http.Client{}
 	req, _ := http.NewRequest("GET", url, nil)
 	
@@ -23,17 +21,17 @@ func get(url string, apiKey string) (map[string]interface{}, error) {
 	resp, err := client.Do(req)
 
 	if err != nil {
-		return data, err
+		return err
 	}
 
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
 
 	if err != nil {
-		return data, err
+		return err
 	}
 	
-	err = json.Unmarshal(body, &data)
+	err = json.Unmarshal(body, &resource)
 	
 	if err != nil {
 		myErr := fmt.Errorf("%T\n%s\n%#v\n", err, err, err)
@@ -41,16 +39,16 @@ func get(url string, apiKey string) (map[string]interface{}, error) {
 			case *json.SyntaxError:
 				myErr = fmt.Errorf("Error processing message: %s\n%s", string(body[v.Offset-40:v.Offset]), myErr)
 		}
-		return data, myErr
+		return myErr
 	}
 	
-	return data, nil
+	return nil
 }
 
 func apiIndex(url string, apiKey string) (map[string]interface{}, error) {
 	var data map[string]interface{}
 
-	data, err := get(url + "/api", apiKey)
+	data, err := get(url + "/api", apiKey, data)
 	//req, _ := http.NewRequest("GET", url + "api/projectgroups", nil)
 	//req, _ := http.NewRequest("GET", url + "api/projectgroups/projectgroups-1/projects", nil)
 	//req, _ := http.NewRequest("GET", url + "api/projects/projects-65/releases", nil)
