@@ -1,0 +1,1611 @@
+{
+  "Projects": [
+    {
+      "Id": "projects-34",
+      "Name": "AccessController Data",
+      "Slug": "accesscontroller-data",
+      "ProjectGroupId": "ProjectGroups-33",
+      "Links": {
+        "Self": "/api/projects/projects-34"
+      }
+    },
+    {
+      "Id": "projects-1",
+      "Name": "BrokerPortal",
+      "Slug": "brokerportal",
+      "ProjectGroupId": "ProjectGroups-1",
+      "Links": {
+        "Self": "/api/projects/projects-1"
+      }
+    },
+    {
+      "Id": "projects-36",
+      "Name": "BrokerRepository Data",
+      "Slug": "brokerrepository-data",
+      "ProjectGroupId": "ProjectGroups-33",
+      "Links": {
+        "Self": "/api/projects/projects-36"
+      }
+    },
+    {
+      "Id": "projects-99",
+      "Name": "Documents Service",
+      "Slug": "documents-service",
+      "ProjectGroupId": "ProjectGroups-1",
+      "Links": {
+        "Self": "/api/projects/projects-99"
+      }
+    },
+    {
+      "Id": "projects-129",
+      "Name": "Email Service",
+      "Slug": "email-service",
+      "ProjectGroupId": "ProjectGroups-1",
+      "Links": {
+        "Self": "/api/projects/projects-129"
+      }
+    },
+    {
+      "Id": "projects-130",
+      "Name": "Metrics Dashboard",
+      "Slug": "metrics-dashboard",
+      "ProjectGroupId": "ProjectGroups-1",
+      "Links": {
+        "Self": "/api/projects/projects-130"
+      }
+    },
+    {
+      "Id": "projects-100",
+      "Name": "Product Catalogue",
+      "Slug": "product-catalogue",
+      "ProjectGroupId": "ProjectGroups-1",
+      "Links": {
+        "Self": "/api/projects/projects-100"
+      }
+    },
+    {
+      "Id": "projects-98",
+      "Name": "ProductDefinition",
+      "Slug": "productdefinition",
+      "ProjectGroupId": "ProjectGroups-33",
+      "Links": {
+        "Self": "/api/projects/projects-98"
+      }
+    },
+    {
+      "Id": "projects-67",
+      "Name": "RetailPublicWebsite",
+      "Slug": "retailpublicwebsite",
+      "ProjectGroupId": "ProjectGroups-1",
+      "Links": {
+        "Self": "/api/projects/projects-67"
+      }
+    },
+    {
+      "Id": "projects-66",
+      "Name": "RetailSCSInterface",
+      "Slug": "retailscsinterface",
+      "ProjectGroupId": "ProjectGroups-1",
+      "Links": {
+        "Self": "/api/projects/projects-66"
+      }
+    },
+    {
+      "Id": "projects-65",
+      "Name": "UnderwriterPortal",
+      "Slug": "underwriterportal",
+      "ProjectGroupId": "ProjectGroups-1",
+      "Links": {
+        "Self": "/api/projects/projects-65"
+      }
+    }
+  ],
+  "ProjectGroups": [
+    {
+      "Id": "ProjectGroups-33",
+      "Name": "Retail Data Packs",
+      "EnvironmentIds": [
+        "Environments-33",
+        "Environments-97",
+        "Environments-2",
+        "Environments-1"
+      ],
+      "Links": {
+        "Self": "/api/projectgroups/ProjectGroups-33"
+      }
+    },
+    {
+      "Id": "ProjectGroups-1",
+      "Name": "Retail Projects",
+      "EnvironmentIds": [
+        "Environments-33",
+        "Environments-97",
+        "Environments-2",
+        "Environments-1"
+      ],
+      "Links": {
+        "Self": "/api/projectgroups/ProjectGroups-1"
+      }
+    }
+  ],
+  "Environments": [
+    {
+      "Id": "Environments-33",
+      "Name": "Retail-SIT",
+      "Links": {
+        "Self": "/api/environments/Environments-33"
+      }
+    },
+    {
+      "Id": "Environments-2",
+      "Name": "Retail-PreProd",
+      "Links": {
+        "Self": "/api/environments/Environments-2"
+      }
+    },
+    {
+      "Id": "Environments-1",
+      "Name": "Retail-Prod",
+      "Links": {
+        "Self": "/api/environments/Environments-1"
+      }
+    }
+  ],
+  "Items": [
+    {
+      "Id": "deployments-1274",
+      "ProjectId": "projects-34",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-1586",
+      "DeploymentId": "deployments-1274",
+      "TaskId": "ServerTasks-10763",
+      "ReleaseVersion": "1.0.84.2",
+      "Created": "2015-01-20T10:57:10.094+00:00",
+      "QueueTime": "2015-01-20T10:57:10.187+00:00",
+      "CompletedTime": "2015-01-20T10:57:12.886+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "3 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1274",
+        "Release": "/api/releases/releases-1586",
+        "Task": "/api/tasks/ServerTasks-10763"
+      }
+    },
+    {
+      "Id": "deployments-1328",
+      "ProjectId": "projects-34",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-1586",
+      "DeploymentId": "deployments-1328",
+      "TaskId": "ServerTasks-10964",
+      "ReleaseVersion": "1.0.84.2",
+      "Created": "2015-01-22T10:01:38.669+00:00",
+      "QueueTime": "2015-01-22T10:01:38.762+00:00",
+      "CompletedTime": "2015-01-22T10:01:41.259+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "2 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1328",
+        "Release": "/api/releases/releases-1586",
+        "Task": "/api/tasks/ServerTasks-10964"
+      }
+    },
+    {
+      "Id": "deployments-1480",
+      "ProjectId": "projects-130",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-1714",
+      "DeploymentId": "deployments-1480",
+      "TaskId": "ServerTasks-11556",
+      "ReleaseVersion": "1.0.56",
+      "Created": "2015-02-02T11:16:21.693+00:00",
+      "QueueTime": "2015-02-02T11:16:21.771+00:00",
+      "CompletedTime": "2015-02-02T11:16:35.376+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "14 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1480",
+        "Release": "/api/releases/releases-1714",
+        "Task": "/api/tasks/ServerTasks-11556"
+      }
+    },
+    {
+      "Id": "deployments-1591",
+      "ProjectId": "projects-34",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-1586",
+      "DeploymentId": "deployments-1591",
+      "TaskId": "ServerTasks-11957",
+      "ReleaseVersion": "1.0.84.2",
+      "Created": "2015-02-09T11:19:00.397+00:00",
+      "QueueTime": "2015-02-09T11:19:00.428+00:00",
+      "CompletedTime": "2015-02-09T11:19:12.254+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "12 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1591",
+        "Release": "/api/releases/releases-1586",
+        "Task": "/api/tasks/ServerTasks-11957"
+      }
+    },
+    {
+      "Id": "deployments-1616",
+      "ProjectId": "projects-130",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-1714",
+      "DeploymentId": "deployments-1616",
+      "TaskId": "ServerTasks-12023",
+      "ReleaseVersion": "1.0.56",
+      "Created": "2015-02-10T11:34:39.722+00:00",
+      "QueueTime": "2015-02-10T11:34:39.768+00:00",
+      "CompletedTime": "2015-02-10T11:34:47.679+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "8 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1616",
+        "Release": "/api/releases/releases-1714",
+        "Task": "/api/tasks/ServerTasks-12023"
+      }
+    },
+    {
+      "Id": "deployments-1633",
+      "ProjectId": "projects-130",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-1714",
+      "DeploymentId": "deployments-1633",
+      "TaskId": "ServerTasks-12044",
+      "ReleaseVersion": "1.0.56",
+      "Created": "2015-02-10T12:48:29.960+00:00",
+      "QueueTime": "2015-02-10T12:48:30.070+00:00",
+      "CompletedTime": "2015-02-10T12:48:43.877+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "14 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1633",
+        "Release": "/api/releases/releases-1714",
+        "Task": "/api/tasks/ServerTasks-12044"
+      }
+    },
+    {
+      "Id": "deployments-1758",
+      "ProjectId": "projects-129",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-1902",
+      "DeploymentId": "deployments-1758",
+      "TaskId": "ServerTasks-12408",
+      "ReleaseVersion": "1.0.68",
+      "Created": "2015-02-16T14:09:27.988+00:00",
+      "QueueTime": "2015-02-16T14:09:28.098+00:00",
+      "CompletedTime": "2015-02-16T14:09:36.351+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "8 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1758",
+        "Release": "/api/releases/releases-1902",
+        "Task": "/api/tasks/ServerTasks-12408"
+      }
+    },
+    {
+      "Id": "deployments-1838",
+      "ProjectId": "projects-129",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-1902",
+      "DeploymentId": "deployments-1838",
+      "TaskId": "ServerTasks-12658",
+      "ReleaseVersion": "1.0.68",
+      "Created": "2015-02-20T11:42:54.050+00:00",
+      "QueueTime": "2015-02-20T11:42:54.128+00:00",
+      "CompletedTime": "2015-02-20T11:43:31.836+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "38 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1838",
+        "Release": "/api/releases/releases-1902",
+        "Task": "/api/tasks/ServerTasks-12658"
+      }
+    },
+    {
+      "Id": "deployments-1867",
+      "ProjectId": "projects-129",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-1902",
+      "DeploymentId": "deployments-1867",
+      "TaskId": "ServerTasks-12800",
+      "ReleaseVersion": "1.0.68",
+      "Created": "2015-02-23T10:53:28.056+00:00",
+      "QueueTime": "2015-02-23T10:53:28.165+00:00",
+      "CompletedTime": "2015-02-23T10:54:54.798+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "1 minute",
+      "Links": {
+        "Self": "/api/deployments/deployments-1867",
+        "Release": "/api/releases/releases-1902",
+        "Task": "/api/tasks/ServerTasks-12800"
+      }
+    },
+    {
+      "Id": "deployments-1889",
+      "ProjectId": "projects-66",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2001",
+      "DeploymentId": "deployments-1889",
+      "TaskId": "ServerTasks-12867",
+      "ReleaseVersion": "2.0.242",
+      "Created": "2015-02-24T11:53:11.356+00:00",
+      "QueueTime": "2015-02-24T11:53:11.419+00:00",
+      "CompletedTime": "2015-02-24T11:53:42.870+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "31 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1889",
+        "Release": "/api/releases/releases-2001",
+        "Task": "/api/tasks/ServerTasks-12867"
+      }
+    },
+    {
+      "Id": "deployments-1892",
+      "ProjectId": "projects-100",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2004",
+      "DeploymentId": "deployments-1892",
+      "TaskId": "ServerTasks-12870",
+      "ReleaseVersion": "2.0.299",
+      "Created": "2015-02-24T11:56:22.900+00:00",
+      "QueueTime": "2015-02-24T11:56:22.978+00:00",
+      "CompletedTime": "2015-02-24T11:56:38.189+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "15 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1892",
+        "Release": "/api/releases/releases-2004",
+        "Task": "/api/tasks/ServerTasks-12870"
+      }
+    },
+    {
+      "Id": "deployments-1907",
+      "ProjectId": "projects-100",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2004",
+      "DeploymentId": "deployments-1907",
+      "TaskId": "ServerTasks-12890",
+      "ReleaseVersion": "2.0.299",
+      "Created": "2015-02-24T14:58:06.683+00:00",
+      "QueueTime": "2015-02-24T14:58:06.979+00:00",
+      "CompletedTime": "2015-02-24T14:58:25.251+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "18 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1907",
+        "Release": "/api/releases/releases-2004",
+        "Task": "/api/tasks/ServerTasks-12890"
+      }
+    },
+    {
+      "Id": "deployments-1909",
+      "ProjectId": "projects-66",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2001",
+      "DeploymentId": "deployments-1909",
+      "TaskId": "ServerTasks-12892",
+      "ReleaseVersion": "2.0.242",
+      "Created": "2015-02-24T14:59:05.094+00:00",
+      "QueueTime": "2015-02-24T14:59:05.172+00:00",
+      "CompletedTime": "2015-02-24T14:59:56.090+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "51 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1909",
+        "Release": "/api/releases/releases-2001",
+        "Task": "/api/tasks/ServerTasks-12892"
+      }
+    },
+    {
+      "Id": "deployments-1967",
+      "ProjectId": "projects-100",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2004",
+      "DeploymentId": "deployments-1967",
+      "TaskId": "ServerTasks-12978",
+      "ReleaseVersion": "2.0.299",
+      "Created": "2015-02-25T12:54:31.547+00:00",
+      "QueueTime": "2015-02-25T12:54:31.657+00:00",
+      "CompletedTime": "2015-02-25T12:54:46.758+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "15 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1967",
+        "Release": "/api/releases/releases-2004",
+        "Task": "/api/tasks/ServerTasks-12978"
+      }
+    },
+    {
+      "Id": "deployments-1970",
+      "ProjectId": "projects-66",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2001",
+      "DeploymentId": "deployments-1970",
+      "TaskId": "ServerTasks-12981",
+      "ReleaseVersion": "2.0.242",
+      "Created": "2015-02-25T12:56:39.865+00:00",
+      "QueueTime": "2015-02-25T12:56:39.943+00:00",
+      "CompletedTime": "2015-02-25T12:57:34.958+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "55 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1970",
+        "Release": "/api/releases/releases-2001",
+        "Task": "/api/tasks/ServerTasks-12981"
+      }
+    },
+    {
+      "Id": "deployments-1983",
+      "ProjectId": "projects-99",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2065",
+      "DeploymentId": "deployments-1983",
+      "TaskId": "ServerTasks-13033",
+      "ReleaseVersion": "2.0.155",
+      "Created": "2015-02-26T11:38:50.256+00:00",
+      "QueueTime": "2015-02-26T11:38:50.334+00:00",
+      "CompletedTime": "2015-02-26T11:39:10.507+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "20 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1983",
+        "Release": "/api/releases/releases-2065",
+        "Task": "/api/tasks/ServerTasks-13033"
+      }
+    },
+    {
+      "Id": "deployments-1998",
+      "ProjectId": "projects-99",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2065",
+      "DeploymentId": "deployments-1998",
+      "TaskId": "ServerTasks-13057",
+      "ReleaseVersion": "2.0.155",
+      "Created": "2015-02-26T16:29:11.441+00:00",
+      "QueueTime": "2015-02-26T16:29:11.519+00:00",
+      "CompletedTime": "2015-02-26T16:29:38.883+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "27 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1998",
+        "Release": "/api/releases/releases-2065",
+        "Task": "/api/tasks/ServerTasks-13057"
+      }
+    },
+    {
+      "Id": "deployments-2000",
+      "ProjectId": "projects-98",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2069",
+      "DeploymentId": "deployments-2000",
+      "TaskId": "ServerTasks-13059",
+      "ReleaseVersion": "1.0.598-master",
+      "Created": "2015-02-26T16:36:59.092+00:00",
+      "QueueTime": "2015-02-26T16:36:59.186+00:00",
+      "CompletedTime": "2015-02-26T16:37:08.890+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "10 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2000",
+        "Release": "/api/releases/releases-2069",
+        "Task": "/api/tasks/ServerTasks-13059"
+      }
+    },
+    {
+      "Id": "deployments-2011",
+      "ProjectId": "projects-99",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2065",
+      "DeploymentId": "deployments-2011",
+      "TaskId": "ServerTasks-13099",
+      "ReleaseVersion": "2.0.155",
+      "Created": "2015-02-27T11:51:45.408+00:00",
+      "QueueTime": "2015-02-27T11:51:45.439+00:00",
+      "CompletedTime": "2015-02-27T11:52:13.916+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "28 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2011",
+        "Release": "/api/releases/releases-2065",
+        "Task": "/api/tasks/ServerTasks-13099"
+      }
+    },
+    {
+      "Id": "deployments-2015",
+      "ProjectId": "projects-98",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2069",
+      "DeploymentId": "deployments-2015",
+      "TaskId": "ServerTasks-13103",
+      "ReleaseVersion": "1.0.598-master",
+      "Created": "2015-02-27T11:54:06.765+00:00",
+      "QueueTime": "2015-02-27T11:54:06.874+00:00",
+      "CompletedTime": "2015-02-27T11:54:17.030+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "10 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2015",
+        "Release": "/api/releases/releases-2069",
+        "Task": "/api/tasks/ServerTasks-13103"
+      }
+    },
+    {
+      "Id": "deployments-2025",
+      "ProjectId": "projects-65",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2087",
+      "DeploymentId": "deployments-2025",
+      "TaskId": "ServerTasks-13119",
+      "ReleaseVersion": "1.0.611.2",
+      "Created": "2015-02-27T15:22:54.212+00:00",
+      "QueueTime": "2015-02-27T15:22:54.290+00:00",
+      "CompletedTime": "2015-02-27T15:23:15.166+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "21 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2025",
+        "Release": "/api/releases/releases-2087",
+        "Task": "/api/tasks/ServerTasks-13119"
+      }
+    },
+    {
+      "Id": "deployments-2040",
+      "ProjectId": "projects-67",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2098",
+      "DeploymentId": "deployments-2040",
+      "TaskId": "ServerTasks-13245",
+      "ReleaseVersion": "2.0.131",
+      "Created": "2015-03-02T13:08:32.872+00:00",
+      "QueueTime": "2015-03-02T13:08:32.965+00:00",
+      "CompletedTime": "2015-03-02T13:08:45.306+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "12 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2040",
+        "Release": "/api/releases/releases-2098",
+        "Task": "/api/tasks/ServerTasks-13245"
+      }
+    },
+    {
+      "Id": "deployments-2056",
+      "ProjectId": "projects-67",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2098",
+      "DeploymentId": "deployments-2056",
+      "TaskId": "ServerTasks-13301",
+      "ReleaseVersion": "2.0.131",
+      "Created": "2015-03-03T10:02:44.128+00:00",
+      "QueueTime": "2015-03-03T10:02:44.252+00:00",
+      "CompletedTime": "2015-03-03T10:03:03.469+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "19 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2056",
+        "Release": "/api/releases/releases-2098",
+        "Task": "/api/tasks/ServerTasks-13301"
+      }
+    },
+    {
+      "Id": "deployments-2057",
+      "ProjectId": "projects-65",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2087",
+      "DeploymentId": "deployments-2057",
+      "TaskId": "ServerTasks-13302",
+      "ReleaseVersion": "1.0.611.2",
+      "Created": "2015-03-03T10:14:30.358+00:00",
+      "QueueTime": "2015-03-03T10:14:30.389+00:00",
+      "CompletedTime": "2015-03-03T10:15:15.258+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "45 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2057",
+        "Release": "/api/releases/releases-2087",
+        "Task": "/api/tasks/ServerTasks-13302"
+      }
+    },
+    {
+      "Id": "deployments-2063",
+      "ProjectId": "projects-67",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2098",
+      "DeploymentId": "deployments-2063",
+      "TaskId": "ServerTasks-13309",
+      "ReleaseVersion": "2.0.131",
+      "Created": "2015-03-03T10:46:03.014+00:00",
+      "QueueTime": "2015-03-03T10:46:03.092+00:00",
+      "CompletedTime": "2015-03-03T10:46:16.805+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "14 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2063",
+        "Release": "/api/releases/releases-2098",
+        "Task": "/api/tasks/ServerTasks-13309"
+      }
+    },
+    {
+      "Id": "deployments-2064",
+      "ProjectId": "projects-65",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2087",
+      "DeploymentId": "deployments-2064",
+      "TaskId": "ServerTasks-13310",
+      "ReleaseVersion": "1.0.611.2",
+      "Created": "2015-03-03T10:46:26.072+00:00",
+      "QueueTime": "2015-03-03T10:46:26.166+00:00",
+      "CompletedTime": "2015-03-03T10:47:25.652+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "59 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2064",
+        "Release": "/api/releases/releases-2087",
+        "Task": "/api/tasks/ServerTasks-13310"
+      }
+    },
+    {
+      "Id": "deployments-2072",
+      "ProjectId": "projects-36",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2113",
+      "DeploymentId": "deployments-2072",
+      "TaskId": "ServerTasks-13320",
+      "ReleaseVersion": "1.0.56",
+      "Created": "2015-03-03T12:07:47.564+00:00",
+      "QueueTime": "2015-03-03T12:07:47.658+00:00",
+      "CompletedTime": "2015-03-03T12:07:53.789+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "6 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2072",
+        "Release": "/api/releases/releases-2113",
+        "Task": "/api/tasks/ServerTasks-13320"
+      }
+    },
+    {
+      "Id": "deployments-2073",
+      "ProjectId": "projects-36",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2113",
+      "DeploymentId": "deployments-2073",
+      "TaskId": "ServerTasks-13321",
+      "ReleaseVersion": "1.0.56",
+      "Created": "2015-03-03T12:08:31.684+00:00",
+      "QueueTime": "2015-03-03T12:08:31.793+00:00",
+      "CompletedTime": "2015-03-03T12:08:41.446+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "10 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2073",
+        "Release": "/api/releases/releases-2113",
+        "Task": "/api/tasks/ServerTasks-13321"
+      }
+    },
+    {
+      "Id": "deployments-2074",
+      "ProjectId": "projects-36",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2113",
+      "DeploymentId": "deployments-2074",
+      "TaskId": "ServerTasks-13322",
+      "ReleaseVersion": "1.0.56",
+      "Created": "2015-03-03T12:37:32.034+00:00",
+      "QueueTime": "2015-03-03T12:37:32.081+00:00",
+      "CompletedTime": "2015-03-03T12:37:41.628+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "10 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2074",
+        "Release": "/api/releases/releases-2113",
+        "Task": "/api/tasks/ServerTasks-13322"
+      }
+    },
+    {
+      "Id": "deployments-2114",
+      "ProjectId": "projects-98",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2145",
+      "DeploymentId": "deployments-2114",
+      "TaskId": "ServerTasks-13451",
+      "ReleaseVersion": "1.0.604-master",
+      "Created": "2015-03-05T16:56:21.141+00:00",
+      "QueueTime": "2015-03-05T16:56:21.203+00:00",
+      "CompletedTime": "2015-03-05T16:56:51.596+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "30 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2114",
+        "Release": "/api/releases/releases-2145",
+        "Task": "/api/tasks/ServerTasks-13451"
+      }
+    },
+    {
+      "Id": "deployments-2116",
+      "ProjectId": "projects-1",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2147",
+      "DeploymentId": "deployments-2116",
+      "TaskId": "ServerTasks-13478",
+      "ReleaseVersion": "1.0.3973.3",
+      "Created": "2015-03-06T10:03:15.094+00:00",
+      "QueueTime": "2015-03-06T10:03:15.172+00:00",
+      "CompletedTime": "2015-03-06T10:03:38.340+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "23 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2116",
+        "Release": "/api/releases/releases-2147",
+        "Task": "/api/tasks/ServerTasks-13478"
+      }
+    },
+    {
+      "Id": "deployments-2117",
+      "ProjectId": "projects-1",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2147",
+      "DeploymentId": "deployments-2117",
+      "TaskId": "ServerTasks-13479",
+      "ReleaseVersion": "1.0.3973.3",
+      "Created": "2015-03-06T10:04:03.303+00:00",
+      "QueueTime": "2015-03-06T10:04:03.427+00:00",
+      "CompletedTime": "2015-03-06T10:04:47.500+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "44 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2117",
+        "Release": "/api/releases/releases-2147",
+        "Task": "/api/tasks/ServerTasks-13479"
+      }
+    },
+    {
+      "Id": "deployments-2118",
+      "ProjectId": "projects-1",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2147",
+      "DeploymentId": "deployments-2118",
+      "TaskId": "ServerTasks-13480",
+      "ReleaseVersion": "1.0.3973.3",
+      "Created": "2015-03-06T10:14:43.348+00:00",
+      "QueueTime": "2015-03-06T10:14:43.442+00:00",
+      "CompletedTime": "2015-03-06T10:15:29.277+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "46 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2118",
+        "Release": "/api/releases/releases-2147",
+        "Task": "/api/tasks/ServerTasks-13480"
+      }
+    }
+  ],
+  "PreviousItems": [
+    {
+      "Id": "deployments-1262",
+      "ProjectId": "projects-34",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-1581",
+      "DeploymentId": "deployments-1262",
+      "TaskId": "ServerTasks-10751",
+      "ReleaseVersion": "1.0.84.1",
+      "Created": "2015-01-20T10:36:33.219+00:00",
+      "QueueTime": "2015-01-20T10:36:33.313+00:00",
+      "CompletedTime": "2015-01-20T10:36:51.909+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "19 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1262",
+        "Release": "/api/releases/releases-1581",
+        "Task": "/api/tasks/ServerTasks-10751"
+      }
+    },
+    {
+      "Id": "deployments-1263",
+      "ProjectId": "projects-34",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-1581",
+      "DeploymentId": "deployments-1263",
+      "TaskId": "ServerTasks-10752",
+      "ReleaseVersion": "1.0.84.1",
+      "Created": "2015-01-20T10:37:50.054+00:00",
+      "QueueTime": "2015-01-20T10:37:50.147+00:00",
+      "CompletedTime": "2015-01-20T10:37:57.542+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "7 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1263",
+        "Release": "/api/releases/releases-1581",
+        "Task": "/api/tasks/ServerTasks-10752"
+      }
+    },
+    {
+      "Id": "deployments-1272",
+      "ProjectId": "projects-36",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-1585",
+      "DeploymentId": "deployments-1272",
+      "TaskId": "ServerTasks-10761",
+      "ReleaseVersion": "1.0.54.2",
+      "Created": "2015-01-20T10:56:12.698+00:00",
+      "QueueTime": "2015-01-20T10:56:12.745+00:00",
+      "CompletedTime": "2015-01-20T10:56:15.069+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "2 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1272",
+        "Release": "/api/releases/releases-1585",
+        "Task": "/api/tasks/ServerTasks-10761"
+      }
+    },
+    {
+      "Id": "deployments-1295",
+      "ProjectId": "projects-130",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-1601",
+      "DeploymentId": "deployments-1295",
+      "TaskId": "ServerTasks-10791",
+      "ReleaseVersion": "0.28.4",
+      "Created": "2015-01-20T15:48:56.663+00:00",
+      "QueueTime": "2015-01-20T15:48:56.741+00:00",
+      "CompletedTime": "2015-01-20T15:49:01.936+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "5 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1295",
+        "Release": "/api/releases/releases-1601",
+        "Task": "/api/tasks/ServerTasks-10791"
+      }
+    },
+    {
+      "Id": "deployments-1296",
+      "ProjectId": "projects-130",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-1601",
+      "DeploymentId": "deployments-1296",
+      "TaskId": "ServerTasks-10792",
+      "ReleaseVersion": "0.28.4",
+      "Created": "2015-01-20T15:49:36.351+00:00",
+      "QueueTime": "2015-01-20T15:49:36.429+00:00",
+      "CompletedTime": "2015-01-20T15:49:48.687+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "12 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1296",
+        "Release": "/api/releases/releases-1601",
+        "Task": "/api/tasks/ServerTasks-10792"
+      }
+    },
+    {
+      "Id": "deployments-1323",
+      "ProjectId": "projects-130",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-1601",
+      "DeploymentId": "deployments-1323",
+      "TaskId": "ServerTasks-10959",
+      "ReleaseVersion": "0.28.4",
+      "Created": "2015-01-22T09:56:18.932+00:00",
+      "QueueTime": "2015-01-22T09:56:19.041+00:00",
+      "CompletedTime": "2015-01-22T09:56:27.592+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "9 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1323",
+        "Release": "/api/releases/releases-1601",
+        "Task": "/api/tasks/ServerTasks-10959"
+      }
+    },
+    {
+      "Id": "deployments-1329",
+      "ProjectId": "projects-36",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-1585",
+      "DeploymentId": "deployments-1329",
+      "TaskId": "ServerTasks-10965",
+      "ReleaseVersion": "1.0.54.2",
+      "Created": "2015-01-22T10:02:05.476+00:00",
+      "QueueTime": "2015-01-22T10:02:05.570+00:00",
+      "CompletedTime": "2015-01-22T10:02:09.798+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "4 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1329",
+        "Release": "/api/releases/releases-1585",
+        "Task": "/api/tasks/ServerTasks-10965"
+      }
+    },
+    {
+      "Id": "deployments-1388",
+      "ProjectId": "projects-129",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-1656",
+      "DeploymentId": "deployments-1388",
+      "TaskId": "ServerTasks-11192",
+      "ReleaseVersion": "1.0.67.1",
+      "Created": "2015-01-26T15:34:26.795+00:00",
+      "QueueTime": "2015-01-26T15:34:26.873+00:00",
+      "CompletedTime": "2015-01-26T15:34:49.455+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "23 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1388",
+        "Release": "/api/releases/releases-1656",
+        "Task": "/api/tasks/ServerTasks-11192"
+      }
+    },
+    {
+      "Id": "deployments-1398",
+      "ProjectId": "projects-129",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-1656",
+      "DeploymentId": "deployments-1398",
+      "TaskId": "ServerTasks-11234",
+      "ReleaseVersion": "1.0.67.1",
+      "Created": "2015-01-27T10:20:15.595+00:00",
+      "QueueTime": "2015-01-27T10:20:15.720+00:00",
+      "CompletedTime": "2015-01-27T10:20:38.504+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "23 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1398",
+        "Release": "/api/releases/releases-1656",
+        "Task": "/api/tasks/ServerTasks-11234"
+      }
+    },
+    {
+      "Id": "deployments-1525",
+      "ProjectId": "projects-129",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-1748",
+      "DeploymentId": "deployments-1525",
+      "TaskId": "ServerTasks-11652",
+      "ReleaseVersion": "1.0.67.2",
+      "Created": "2015-02-03T14:54:29.116+00:00",
+      "QueueTime": "2015-02-03T14:54:29.209+00:00",
+      "CompletedTime": "2015-02-03T14:54:37.494+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "8 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1525",
+        "Release": "/api/releases/releases-1748",
+        "Task": "/api/tasks/ServerTasks-11652"
+      }
+    },
+    {
+      "Id": "deployments-1592",
+      "ProjectId": "projects-36",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-1585",
+      "DeploymentId": "deployments-1592",
+      "TaskId": "ServerTasks-11958",
+      "ReleaseVersion": "1.0.54.2",
+      "Created": "2015-02-09T11:19:13.627+00:00",
+      "QueueTime": "2015-02-09T11:19:13.737+00:00",
+      "CompletedTime": "2015-02-09T11:19:17.231+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "3 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1592",
+        "Release": "/api/releases/releases-1585",
+        "Task": "/api/tasks/ServerTasks-11958"
+      }
+    },
+    {
+      "Id": "deployments-1745",
+      "ProjectId": "projects-98",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-1861",
+      "DeploymentId": "deployments-1745",
+      "TaskId": "ServerTasks-12393",
+      "ReleaseVersion": "1.0.573-master",
+      "Created": "2015-02-16T12:48:18.142+00:00",
+      "QueueTime": "2015-02-16T12:48:18.235+00:00",
+      "CompletedTime": "2015-02-16T12:48:27.737+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "10 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1745",
+        "Release": "/api/releases/releases-1861",
+        "Task": "/api/tasks/ServerTasks-12393"
+      }
+    },
+    {
+      "Id": "deployments-1781",
+      "ProjectId": "projects-98",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-1861",
+      "DeploymentId": "deployments-1781",
+      "TaskId": "ServerTasks-12470",
+      "ReleaseVersion": "1.0.573-master",
+      "Created": "2015-02-17T11:40:18.310+00:00",
+      "QueueTime": "2015-02-17T11:40:18.419+00:00",
+      "CompletedTime": "2015-02-17T11:40:31.757+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "13 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1781",
+        "Release": "/api/releases/releases-1861",
+        "Task": "/api/tasks/ServerTasks-12470"
+      }
+    },
+    {
+      "Id": "deployments-1830",
+      "ProjectId": "projects-100",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-1946",
+      "DeploymentId": "deployments-1830",
+      "TaskId": "ServerTasks-12649",
+      "ReleaseVersion": "2.0.293",
+      "Created": "2015-02-20T10:20:24.706+00:00",
+      "QueueTime": "2015-02-20T10:20:24.815+00:00",
+      "CompletedTime": "2015-02-20T10:20:38.312+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "13 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1830",
+        "Release": "/api/releases/releases-1946",
+        "Task": "/api/tasks/ServerTasks-12649"
+      }
+    },
+    {
+      "Id": "deployments-1833",
+      "ProjectId": "projects-66",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-1949",
+      "DeploymentId": "deployments-1833",
+      "TaskId": "ServerTasks-12652",
+      "ReleaseVersion": "2.0.241",
+      "Created": "2015-02-20T10:41:25.004+00:00",
+      "QueueTime": "2015-02-20T10:41:25.082+00:00",
+      "CompletedTime": "2015-02-20T10:41:44.679+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "20 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1833",
+        "Release": "/api/releases/releases-1949",
+        "Task": "/api/tasks/ServerTasks-12652"
+      }
+    },
+    {
+      "Id": "deployments-1839",
+      "ProjectId": "projects-100",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-1946",
+      "DeploymentId": "deployments-1839",
+      "TaskId": "ServerTasks-12659",
+      "ReleaseVersion": "2.0.293",
+      "Created": "2015-02-20T11:43:14.004+00:00",
+      "QueueTime": "2015-02-20T11:43:14.098+00:00",
+      "CompletedTime": "2015-02-20T11:43:26.469+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "12 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1839",
+        "Release": "/api/releases/releases-1946",
+        "Task": "/api/tasks/ServerTasks-12659"
+      }
+    },
+    {
+      "Id": "deployments-1841",
+      "ProjectId": "projects-66",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-1949",
+      "DeploymentId": "deployments-1841",
+      "TaskId": "ServerTasks-12661",
+      "ReleaseVersion": "2.0.241",
+      "Created": "2015-02-20T11:43:52.819+00:00",
+      "QueueTime": "2015-02-20T11:43:52.897+00:00",
+      "CompletedTime": "2015-02-20T11:44:22.889+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "30 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1841",
+        "Release": "/api/releases/releases-1949",
+        "Task": "/api/tasks/ServerTasks-12661"
+      }
+    },
+    {
+      "Id": "deployments-1863",
+      "ProjectId": "projects-100",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-1946",
+      "DeploymentId": "deployments-1863",
+      "TaskId": "ServerTasks-12790",
+      "ReleaseVersion": "2.0.293",
+      "Created": "2015-02-23T10:42:42.324+00:00",
+      "QueueTime": "2015-02-23T10:42:42.418+00:00",
+      "CompletedTime": "2015-02-23T10:42:58.971+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "17 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1863",
+        "Release": "/api/releases/releases-1946",
+        "Task": "/api/tasks/ServerTasks-12790"
+      }
+    },
+    {
+      "Id": "deployments-1865",
+      "ProjectId": "projects-66",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-1949",
+      "DeploymentId": "deployments-1865",
+      "TaskId": "ServerTasks-12792",
+      "ReleaseVersion": "2.0.241",
+      "Created": "2015-02-23T10:43:30.377+00:00",
+      "QueueTime": "2015-02-23T10:43:30.455+00:00",
+      "CompletedTime": "2015-02-23T10:54:37.590+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "11 minutes",
+      "Links": {
+        "Self": "/api/deployments/deployments-1865",
+        "Release": "/api/releases/releases-1949",
+        "Task": "/api/tasks/ServerTasks-12792"
+      }
+    },
+    {
+      "Id": "deployments-1896",
+      "ProjectId": "projects-99",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2007",
+      "DeploymentId": "deployments-1896",
+      "TaskId": "ServerTasks-12876",
+      "ReleaseVersion": "2.0.154",
+      "Created": "2015-02-24T12:51:43.460+00:00",
+      "QueueTime": "2015-02-24T12:51:43.554+00:00",
+      "CompletedTime": "2015-02-24T12:52:09.951+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "26 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1896",
+        "Release": "/api/releases/releases-2007",
+        "Task": "/api/tasks/ServerTasks-12876"
+      }
+    },
+    {
+      "Id": "deployments-1905",
+      "ProjectId": "projects-99",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2007",
+      "DeploymentId": "deployments-1905",
+      "TaskId": "ServerTasks-12888",
+      "ReleaseVersion": "2.0.154",
+      "Created": "2015-02-24T14:57:31.138+00:00",
+      "QueueTime": "2015-02-24T14:57:31.232+00:00",
+      "CompletedTime": "2015-02-24T14:58:08.335+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "37 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1905",
+        "Release": "/api/releases/releases-2007",
+        "Task": "/api/tasks/ServerTasks-12888"
+      }
+    },
+    {
+      "Id": "deployments-1966",
+      "ProjectId": "projects-99",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2007",
+      "DeploymentId": "deployments-1966",
+      "TaskId": "ServerTasks-12977",
+      "ReleaseVersion": "2.0.154",
+      "Created": "2015-02-25T12:53:56.336+00:00",
+      "QueueTime": "2015-02-25T12:53:56.367+00:00",
+      "CompletedTime": "2015-02-25T12:54:32.483+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "36 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1966",
+        "Release": "/api/releases/releases-2007",
+        "Task": "/api/tasks/ServerTasks-12977"
+      }
+    },
+    {
+      "Id": "deployments-1987",
+      "ProjectId": "projects-65",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2068",
+      "DeploymentId": "deployments-1987",
+      "TaskId": "ServerTasks-13038",
+      "ReleaseVersion": "1.0.608.2",
+      "Created": "2015-02-26T12:13:10.026+00:00",
+      "QueueTime": "2015-02-26T12:13:10.119+00:00",
+      "CompletedTime": "2015-02-26T12:13:27.234+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "17 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1987",
+        "Release": "/api/releases/releases-2068",
+        "Task": "/api/tasks/ServerTasks-13038"
+      }
+    },
+    {
+      "Id": "deployments-1988",
+      "ProjectId": "projects-65",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2068",
+      "DeploymentId": "deployments-1988",
+      "TaskId": "ServerTasks-13039",
+      "ReleaseVersion": "1.0.608.2",
+      "Created": "2015-02-26T12:14:02.494+00:00",
+      "QueueTime": "2015-02-26T12:14:02.603+00:00",
+      "CompletedTime": "2015-02-26T12:14:30.249+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "28 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1988",
+        "Release": "/api/releases/releases-2068",
+        "Task": "/api/tasks/ServerTasks-13039"
+      }
+    },
+    {
+      "Id": "deployments-1990",
+      "ProjectId": "projects-65",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2068",
+      "DeploymentId": "deployments-1990",
+      "TaskId": "ServerTasks-13041",
+      "ReleaseVersion": "1.0.608.2",
+      "Created": "2015-02-26T12:22:55.741+00:00",
+      "QueueTime": "2015-02-26T12:22:55.819+00:00",
+      "CompletedTime": "2015-02-26T12:23:27.973+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "32 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1990",
+        "Release": "/api/releases/releases-2068",
+        "Task": "/api/tasks/ServerTasks-13041"
+      }
+    },
+    {
+      "Id": "deployments-1993",
+      "ProjectId": "projects-98",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2069",
+      "DeploymentId": "deployments-1993",
+      "TaskId": "ServerTasks-13049",
+      "ReleaseVersion": "1.0.598-master",
+      "Created": "2015-02-26T14:44:17.313+00:00",
+      "QueueTime": "2015-02-26T14:44:17.391+00:00",
+      "CompletedTime": "2015-02-26T14:44:27.955+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "11 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-1993",
+        "Release": "/api/releases/releases-2069",
+        "Task": "/api/tasks/ServerTasks-13049"
+      }
+    },
+    {
+      "Id": "deployments-2019",
+      "ProjectId": "projects-67",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2082",
+      "DeploymentId": "deployments-2019",
+      "TaskId": "ServerTasks-13113",
+      "ReleaseVersion": "2.0.130.2",
+      "Created": "2015-02-27T14:41:11.808+00:00",
+      "QueueTime": "2015-02-27T14:41:11.886+00:00",
+      "CompletedTime": "2015-02-27T14:41:19.245+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "7 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2019",
+        "Release": "/api/releases/releases-2082",
+        "Task": "/api/tasks/ServerTasks-13113"
+      }
+    },
+    {
+      "Id": "deployments-2020",
+      "ProjectId": "projects-67",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2082",
+      "DeploymentId": "deployments-2020",
+      "TaskId": "ServerTasks-13114",
+      "ReleaseVersion": "2.0.130.2",
+      "Created": "2015-02-27T14:42:34.744+00:00",
+      "QueueTime": "2015-02-27T14:42:34.807+00:00",
+      "CompletedTime": "2015-02-27T14:42:41.843+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "7 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2020",
+        "Release": "/api/releases/releases-2082",
+        "Task": "/api/tasks/ServerTasks-13114"
+      }
+    },
+    {
+      "Id": "deployments-2033",
+      "ProjectId": "projects-67",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2082",
+      "DeploymentId": "deployments-2033",
+      "TaskId": "ServerTasks-13235",
+      "ReleaseVersion": "2.0.130.2",
+      "Created": "2015-03-02T11:04:39.743+00:00",
+      "QueueTime": "2015-03-02T11:04:39.790+00:00",
+      "CompletedTime": "2015-03-02T11:04:55.391+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "16 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2033",
+        "Release": "/api/releases/releases-2082",
+        "Task": "/api/tasks/ServerTasks-13235"
+      }
+    },
+    {
+      "Id": "deployments-2062",
+      "ProjectId": "projects-1",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-2097",
+      "DeploymentId": "deployments-2062",
+      "TaskId": "ServerTasks-13308",
+      "ReleaseVersion": "1.0.3951",
+      "Created": "2015-03-03T10:45:31.375+00:00",
+      "QueueTime": "2015-03-03T10:45:31.469+00:00",
+      "CompletedTime": "2015-03-03T10:46:10.112+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "39 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2062",
+        "Release": "/api/releases/releases-2097",
+        "Task": "/api/tasks/ServerTasks-13308"
+      }
+    },
+    {
+      "Id": "deployments-2093",
+      "ProjectId": "projects-1",
+      "EnvironmentId": "Environments-33",
+      "ReleaseId": "releases-2131",
+      "DeploymentId": "deployments-2093",
+      "TaskId": "ServerTasks-13421",
+      "ReleaseVersion": "1.0.3973",
+      "Created": "2015-03-05T10:36:35.690+00:00",
+      "QueueTime": "2015-03-05T10:36:35.831+00:00",
+      "CompletedTime": "2015-03-05T10:37:16.286+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "40 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2093",
+        "Release": "/api/releases/releases-2131",
+        "Task": "/api/tasks/ServerTasks-13421"
+      }
+    },
+    {
+      "Id": "deployments-2113",
+      "ProjectId": "projects-1",
+      "EnvironmentId": "Environments-2",
+      "ReleaseId": "releases-2132",
+      "DeploymentId": "deployments-2113",
+      "TaskId": "ServerTasks-13443",
+      "ReleaseVersion": "1.0.3973.1",
+      "Created": "2015-03-05T12:16:39.910+00:00",
+      "QueueTime": "2015-03-05T12:16:40.269+00:00",
+      "CompletedTime": "2015-03-05T12:17:15.170+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "35 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-2113",
+        "Release": "/api/releases/releases-2132",
+        "Task": "/api/tasks/ServerTasks-13443"
+      }
+    },
+    {
+      "Id": "deployments-943",
+      "ProjectId": "projects-34",
+      "EnvironmentId": "Environments-1",
+      "ReleaseId": "releases-1318",
+      "DeploymentId": "deployments-943",
+      "TaskId": "ServerTasks-9071",
+      "ReleaseVersion": "1.0.84",
+      "Created": "2014-12-15T10:05:18.446+00:00",
+      "QueueTime": "2014-12-15T10:05:18.524+00:00",
+      "CompletedTime": "2014-12-15T10:05:22.409+00:00",
+      "State": "Success",
+      "HasPendingInterruptions": false,
+      "HasWarningsOrErrors": false,
+      "ErrorMessage": "",
+      "Duration": "4 seconds",
+      "Links": {
+        "Self": "/api/deployments/deployments-943",
+        "Release": "/api/releases/releases-1318",
+        "Task": "/api/tasks/ServerTasks-9071"
+      }
+    }
+  ],
+  "Links": {}
+}
