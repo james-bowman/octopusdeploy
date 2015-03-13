@@ -2,8 +2,8 @@
   "Projects": [
     {
       "Id": "projects-34",
-      "Name": "AccessController Data",
-      "Slug": "accesscontroller-data",
+      "Name": "Data1",
+      "Slug": "data1",
       "ProjectGroupId": "ProjectGroups-33",
       "Links": {
         "Self": "/api/projects/projects-34"
@@ -11,8 +11,8 @@
     },
     {
       "Id": "projects-1",
-      "Name": "BrokerPortal",
-      "Slug": "brokerportal",
+      "Name": "Portal",
+      "Slug": "portal",
       "ProjectGroupId": "ProjectGroups-1",
       "Links": {
         "Self": "/api/projects/projects-1"
@@ -20,8 +20,8 @@
     },
     {
       "Id": "projects-36",
-      "Name": "BrokerRepository Data",
-      "Slug": "brokerrepository-data",
+      "Name": "Data2",
+      "Slug": "data2",
       "ProjectGroupId": "ProjectGroups-33",
       "Links": {
         "Self": "/api/projects/projects-36"
@@ -29,8 +29,8 @@
     },
     {
       "Id": "projects-99",
-      "Name": "Documents Service",
-      "Slug": "documents-service",
+      "Name": "Service1",
+      "Slug": "service1",
       "ProjectGroupId": "ProjectGroups-1",
       "Links": {
         "Self": "/api/projects/projects-99"
@@ -38,8 +38,8 @@
     },
     {
       "Id": "projects-129",
-      "Name": "Email Service",
-      "Slug": "email-service",
+      "Name": "Service3",
+      "Slug": "service3",
       "ProjectGroupId": "ProjectGroups-1",
       "Links": {
         "Self": "/api/projects/projects-129"
@@ -47,8 +47,8 @@
     },
     {
       "Id": "projects-130",
-      "Name": "Metrics Dashboard",
-      "Slug": "metrics-dashboard",
+      "Name": "Dashboard",
+      "Slug": "dashboard",
       "ProjectGroupId": "ProjectGroups-1",
       "Links": {
         "Self": "/api/projects/projects-130"
@@ -56,8 +56,8 @@
     },
     {
       "Id": "projects-100",
-      "Name": "Product Catalogue",
-      "Slug": "product-catalogue",
+      "Name": "Catalogue",
+      "Slug": "catalogue",
       "ProjectGroupId": "ProjectGroups-1",
       "Links": {
         "Self": "/api/projects/projects-100"
@@ -65,8 +65,8 @@
     },
     {
       "Id": "projects-98",
-      "Name": "ProductDefinition",
-      "Slug": "productdefinition",
+      "Name": "Definition",
+      "Slug": "definition",
       "ProjectGroupId": "ProjectGroups-33",
       "Links": {
         "Self": "/api/projects/projects-98"
@@ -74,8 +74,8 @@
     },
     {
       "Id": "projects-67",
-      "Name": "RetailPublicWebsite",
-      "Slug": "retailpublicwebsite",
+      "Name": "AnotherService",
+      "Slug": "anotherservice",
       "ProjectGroupId": "ProjectGroups-1",
       "Links": {
         "Self": "/api/projects/projects-67"
@@ -83,8 +83,8 @@
     },
     {
       "Id": "projects-66",
-      "Name": "RetailSCSInterface",
-      "Slug": "retailscsinterface",
+      "Name": "BEInterface",
+      "Slug": "beinterface",
       "ProjectGroupId": "ProjectGroups-1",
       "Links": {
         "Self": "/api/projects/projects-66"
@@ -92,8 +92,8 @@
     },
     {
       "Id": "projects-65",
-      "Name": "UnderwriterPortal",
-      "Slug": "underwriterportal",
+      "Name": "BEPortal",
+      "Slug": "beportal",
       "ProjectGroupId": "ProjectGroups-1",
       "Links": {
         "Self": "/api/projects/projects-65"
@@ -103,7 +103,7 @@
   "ProjectGroups": [
     {
       "Id": "ProjectGroups-33",
-      "Name": "Retail Data Packs",
+      "Name": "Data Packs",
       "EnvironmentIds": [
         "Environments-33",
         "Environments-97",
@@ -116,7 +116,7 @@
     },
     {
       "Id": "ProjectGroups-1",
-      "Name": "Retail Projects",
+      "Name": "Projects",
       "EnvironmentIds": [
         "Environments-33",
         "Environments-97",
@@ -131,21 +131,21 @@
   "Environments": [
     {
       "Id": "Environments-33",
-      "Name": "Retail-SIT",
+      "Name": "SIT",
       "Links": {
         "Self": "/api/environments/Environments-33"
       }
     },
     {
       "Id": "Environments-2",
-      "Name": "Retail-PreProd",
+      "Name": "PreProd",
       "Links": {
         "Self": "/api/environments/Environments-2"
       }
     },
     {
       "Id": "Environments-1",
-      "Name": "Retail-Prod",
+      "Name": "Prod",
       "Links": {
         "Self": "/api/environments/Environments-1"
       }

@@ -29,7 +29,7 @@ func TestGetComponents(t *testing.T) {
 	
 	fmt.Println(components)
 	
-	diffs := DiffEnvs(components["Retail-SIT"], components["Retail-Prod"])
+	diffs := DiffEnvs(components["SIT"], components["Prod"])
 	
 	fmt.Println(diffs)
 	
