@@ -34,14 +34,16 @@ func GetComponents(getDashboard func() (*Dashboard, error)) (map[string](map[str
 	return envs, nil
 }
 
-func DiffEnvs(advanced map[string]string, behind map[string]string) map[string]string {
-	response := make(map[string]string)
+func DiffEnvs(advanced map[string]string, behind map[string]string) (map[string]string, map[string]string) {
+	responseAdv := make(map[string]string)
+	responseBehind := make(map[string]string)
 	
 	for key, value := range advanced {
 		if value != behind[key] {
-			response[key] = value
+			responseAdv[key] = value
+			responseBehind[key] = behind[key]
 		}
 	}
 	
-	return response
+	return responseAdv, responseBehind
 }
