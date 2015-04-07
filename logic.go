@@ -27,7 +27,7 @@ func GetComponents(getDashboard func() (*Dashboard, error)) (map[string](map[str
 	
 	for _, item := range dash.Items {
 		envName := environments[item.EnvironmentId].Name
-		projSlug := projects[item.ProjectId].Name
+		projSlug := projects[item.ProjectId].Slug
 		envs[envName][projSlug] = item.ReleaseVersion
 	}
 	
